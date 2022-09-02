@@ -29,6 +29,6 @@ app.use("/public",express.static(path.join("public")))
 
 app.use(allrouter);
 
-app.listen("3000",()=>{
-    console.log("listening post number 3000")
+app.listen("80",()=>{
+    console.log("listening post number 80")
 })
