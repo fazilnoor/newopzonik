@@ -1,0 +1,31 @@
+#custom label{
+    font-weight: 600 !important;
+    font-family:'SF Pro Display', sans-serif;
+}
+#custom select{
+    border-radius: 0px!important;
+    font-family:'SF Pro Display', sans-serif;
+    box-shadow: none;
+}
+#custom input[type="text"]{
+    border-radius: 0px !important;
+    box-shadow: none;
+    height: 38px;
+}
+h3{
+    font-family:'SF Pro Display', sans-serif;
+}
+p{
+    font-family:'SF Pro Display', sans-serif;
+}
+
+#custom .btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: red;
+    border-radius: 0px;
+    color: white;
+}
+#custom .form-group p{
+    color: red;
+}

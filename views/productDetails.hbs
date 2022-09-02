@@ -1,0 +1,180 @@
+{{>header}}
+
+<script>
+  Handlebars.registerHelper('ifCond', function(v1, v2, options) {
+  if(v1 === v2) {
+    return options.fn(this);
+  }
+});
+</script>
+
+<section id="details">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6" data-animation="slideInleft">
+        <div class="for_border">
+          <div class="details_image">
+            <img src="{{productInfo.image}}" alt="" class="img-fluid shadow">
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-6" data-animation="slideInRight">
+        <div class="content1" id="content2">
+          <h4>{{productInfo.title}}</h4>
+          <p>{{productInfo.info}}
+          <div class="two_btn">
+            <button type="button" class="btn request" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact
+              Seller</button>
+            {{!-- {{#if {{productInfo.mark}}=="yes"}
+
+            {{/if}} --}}
+            {{#if productInfo.mark}}
+            <a href="/custom"> <button type="button" class="btn request">Custom cable</button></a>
+
+            {{/if}}
+
+          </div>
+          </p>
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="description">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6" data-animation="slideInleft">
+        {{{productInfo.description}}}
+        {{!-- <div class="descrip">
+          <h2>Description</h2>
+
+          <div class="box1">
+            <h4>Physical & Environmental Properties</h4>
+            <ul>
+              <li>Repeatability: < 0.10dB Storage </li>
+              <li>temperature: -25°C to +70°C Operating</li>
+              <li> Temperature: -20°C to +70°C Optical</li>
+            </ul>
+          </div>
+          <div class="box1">
+            <h4> Optical Properties</h4>
+            <ul>
+              <li> Insertion Loss SM (1310 & 1550nm) <=0.30dB (Max) & <=0.20dB (Typical).</li>
+              <li>Return Loss SM (1310 & 1550nm) >=0.50dB (Min), >=0.55dB (Typical), >=0.65dB (APC)</li>
+            </ul>
+          </div>
+          <div class="box1">
+            <h4> Standards & Compliance</h4>
+            <ul>
+              <li> ISO 9001 & RoHS</li>
+
+            </ul>
+          </div>
+          <div class="box1">
+            <h4> Packing & Shipping </h4>
+            <ul>
+              <li>The package will be packed according to standard export requirements, customer satisfaction is our
+                target.
+                Inner packing: 1pc in a plastic bag.</li>
+              <li>Outer packing: the carton will be packed with Bubble Sheet, well protect carton from dust and wet.
+                The transportation: By air,by sea,by DHL ,Fedex TNT ,UPS ...</li>
+            </ul>
+          </div>
+          <div class="box1">
+            <h4> Applications</h4>
+            <ul>
+              <li>1) Data center & Computer networking</li>
+              <li>2) Telecommunication & FTTH, FTTB & FTTX.</li>
+              <li>3) CATV Systems, Local area networks (LAN), Wide area networks (WAN)</li>
+              <li>4) Fiber optic testing equipment & sensors.</li>
+              <li>5) Passive optical network & fiber communication system.</li>
+            </ul>
+          </div>
+
+        </div> --}}
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="new_section">
+  <div class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="pt-3">Related Products</h2>
+        </div>
+      </div>
+
+      {{>slider}}
+    </div>
+</section>
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-12">
+            <div class="contact-side-img">
+              <img src="../public/image/light (1).png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <form action="" id="modal_form">
+              <div class="form-group mt-3">
+                <label for="" class="mb-2">Name</label>
+                <input type="text" class="form-control" id="modal_name" placeholder="Enter name">
+                <p id="m_name"></p>
+              </div>
+              <div class="form-group mt-3">
+                <label for="" class="mb-2">Mobile Number</label>
+                <input type="text" class="form-control" id="modal_number" maxlength="10" pattern="[1-9]+[0-9]{9}" placeholder="Enter mobile number" >
+                <p id="m_number"></p>
+              </div>
+              <div class="form-group mt-3">
+                <label for="" class="mb-2">Email</label>
+                <input type="text" class="form-control" id="modal_email" placeholder="Enter mail">
+                <p id="m_email"></p>
+              </div>
+
+              <div class="form-group mt-3">
+                <label for="" class="mb-2">Address</label>
+                <input type="text" class="form-control" id="modal_address" placeholder="Enter address">
+                <p id="m_address"></p>
+              </div>
+              <div class="form-group mt-3">
+                <label for="" class="mb-2">Query</label>
+                <textarea name="" class="form-control" id="modaltext" placeholder="Enter query"></textarea>
+                <p id="m_query"></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+
+        <button type="button" class="btn btn-primary" onclick="onModal()">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+{{>footer}}

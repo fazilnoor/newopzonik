@@ -1,0 +1,60 @@
+{{>header}}
+
+<section id="form">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mt-5">
+                <div class=" main_rectangle ">
+                    <div class="rectangle">
+                        <img src=".././public/image/contact-us.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mt-3">
+                <form action="">
+                    <div class="contact">
+                        <h2 class="rancho_h3">Contact Us</h2>
+                    </div class="contact-form">
+                    <div class="form-group">
+                        <label for="text" class="form__label">Your Name</label>
+                        <input type="text" id="contact_name" class="form-control" placeholder="Name" title="Please enter name">
+                        <p id="c_name"></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="tel" class="form__label">Mobile Number</label>
+                        <input type="tel" id="contact_number" class="form-control" placeholder="Mobile number"
+                            maxlength="10" pattern="[1-9]+[0-9]{9}" data-error="Contact no is required.">
+                        <p id="c_mobile"></p>
+                    </div>
+                    <div class="form-group">
+                        <form action="">
+                            <label for="email" class="form__label">Email</label>
+                            <input type="email" id="contact_email" class="form-control" placeholder="Your Email">
+                            <p id="c_mail"></p>
+                        </form>
+                    </div>
+                    <div class="form-group">
+                        <form action="">
+                            <label for="email" class="form__label">Address</label>
+                            <input type="email" id="contact_address" class="form-control" placeholder="Your Address">
+                            <p id="c_address"></p>
+                        </form>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="text" class="form__label">Query</label>
+                        <textarea id="contact_query" class="form-control message" placeholder="Your Query"></textarea>
+                        <p id="c_query"></p>
+                    </div>
+                    <div class="text-align-left pt-3 contact-submit-btn">
+                        <button class="button_main" id="contact_form" onclick="onSubmit()"> Submit</button>
+                    </div>
+            </div>
+            </form>
+
+        </div>
+    </div>
+    </div>
+</section>
+
+{{>footer}}

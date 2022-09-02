@@ -1,0 +1,43 @@
+{{>header}}
+        <div class="container">
+            <div class="row gy-3">
+                <div class="col-lg-12 mb-5 mt-5">
+                    {{#each productList}}
+                       {{#if productName}}
+           
+                            <h3 class="text-center productName">{{productName}}  </h3>
+                        {{/if}}
+                     {{/each}}   
+                    
+                </div>
+                {{#each productList}}        
+                <div class="col-lg-3">
+                    <div class="box_new">
+                             <a href="/product/{{class}}" style="text-decoration:none ;">
+                                <div class="Product-section">
+                                    <img src="{{image}}" alt="" class="img-fluid">
+                                </div> 
+                                <div class="content_img text-center">
+                                    <h4>{{imageName}}</h4>
+                                    <p>{{content}}</p>
+                                    <button class="btn more_btn">More</button>
+                                </div>
+                            </a>
+                    </div>
+                </div>
+                {{/each}}
+            </div> 
+        </div>
+       <section class="new_section">
+      <div class="main">
+         <div class="container">
+           <div class="row">
+              <div class="col-lg-12">
+                <h2 class="pt-3">Our Products</h2>
+              </div>
+           </div>
+
+          {{>slider}}
+      </div>
+    </section>
+{{>footer}}

@@ -1,0 +1,47 @@
+<div class="row">
+  <div class="col-lg-12" id="myBtnContainer">
+    <div class="home-demo">
+      <div class="owl-carousel owl-theme">
+        <div class="item d-flex">
+          <button class="btn mt-3 active3" onclick="filterSelection('all')">All Product</button>
+        </div>
+        {{#each button}}
+        <div class="item d-flex">
+          <button class="btn mt-3" onclick="filterSelection('{{class}}')">{{productName}}</button>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row m-0">
+  <div class="row m-0">
+    <div class="col-lg-12 ">
+      <div class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+          {{#each productimage}}
+
+          <div class="swiper-slide column {{class}}">
+
+            <div class="content shadow">
+              <img src="{{image}}" alt="Car" style="width:100%">
+              <h4>{{imageName}}</h4>
+              <p>{{content}}</p>
+
+
+            </div>
+
+          </div>
+
+          {{/each}}
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+</div>

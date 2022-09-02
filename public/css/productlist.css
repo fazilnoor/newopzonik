@@ -1,0 +1,52 @@
+.box_new{
+    border: 3px solid rgb(130, 130, 130);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    height: auto;
+    width: 100%;
+    padding: 1rem 1rem 0 1rem;
+}
+.content_img p{
+    text-decoration: none !important;
+    color: #666 !important;
+    font-size: 13px;
+    font-family: 'Dosis',sans-serif;
+    font-weight: normal;
+    text-align: center;
+
+}
+.content_img h4{
+    color: rgb(68, 65, 65);
+}
+.Product-section{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.Product-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.content_img {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+.more_btn{
+    padding: 10px 30px;
+    background-color: grey;
+    color:white
+}
+.more_btn:hover{
+    background-color: red;
+    color: #fff;
+}
+.two_btn{
+    display: inline-flex;
+    
+}
