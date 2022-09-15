@@ -67,22 +67,24 @@
               <li class="categoryList mr-2"><img src="../../public/image/icon1.png" alt=""> PRODUCT-CATEGORY
                 <ul class="sub_list">
                   {{#each data}}
-                  <li><a href="/{{newCategory}}">{{categoryName}}</a>
+                  <a href="/{{newCategory}}">
+                  <li>{{categoryName}}
                     <ul class="sub_list1">
                       {{#subCategories}}
-                      <li><a href="/{{categoryName}}_{{subCategoryName}}">{{subCategoryName}} </a>
+                      <a href="/{{categoryName}}_{{subCategoryName}}"><li>{{subCategoryName}}
 
                         {{!-- <ul class="sub_list2">
                           {{#products}}
                           <li><a href="/{{categoryName}}_{{subCategoryName}}_{{productName}}">{{productName}}</a></li>
-
                           {{/products}}
                         </ul> --}}
                       </li>
+                      </a>
                       {{/subCategories}}
                     </ul>
                   </li>
                   {{/each}}
+                  </a>
                 </ul>
               </li>
 
@@ -127,11 +129,9 @@
                 <ul class="sub_list1">
                   {{#subCategories}}
                   <li><a href="">{{subCategoryName}} </a>
-
                     <ul class="sub_list2">
                       {{#products}}
                       <li><a href="/{{categoryName}}_{{subCategoryName}}_{{productName}}">{{productName}}</a></li>
-
                       {{/products}}
                     </ul>
                   </li>
@@ -141,7 +141,6 @@
               {{/each}}
             </ul>
           </li>
-
         </ul>
       </div>
       <div class="social-links d-none d-md-flex align-items-center">

@@ -103,9 +103,11 @@ section{
     margin-right: 0px !important;
 }
 .navbar-nav li a{
-    padding-left: 10px;
+    padding-left: 5px;
     padding-right: 10px;
+    font-size: 12px !important;
     color: black;
+    text-decoration: none !important;
 }
 .nav-link {
 
@@ -756,7 +758,9 @@ color: red;
     text-align: initial;
 }
 
-
+a{
+    list-style: none!important;
+}
 /* header section start */
 .navbar-nav ul{
     padding-left: 0;
@@ -772,7 +776,8 @@ color: red;
     border: 1px solid rgb(213, 208, 208);
     border-radius: 20px;
     padding: 3px;
-    margin-top: 4px;
+    margin-top: -24px;
+    padding-left: 10px;
 
 }
 .navbar-nav ul ul li:hover{
@@ -980,3 +985,9 @@ background-color: grey;
     text-align: left;
     padding-left: 12px;
 } */
+
+/* menu csss */
+
+.no_line {
+    text-decoration: none !important;
+}
