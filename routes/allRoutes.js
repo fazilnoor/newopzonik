@@ -53,14 +53,14 @@ router.get("/contact",(req,res)=>{
     const listData=data.opzonik;
     const listButton=productDesc.product
     const productImg=shuffleArray(productImage.productimg)
-    console.log("kaushal")
+    
     res.render("contact",{"data":listData,"button":listButton,"productimage":productImg})
 })
 router.get("/custom",(req,res)=>{
     const listData=data.opzonik;
     const listButton=productDesc.product
     const productImg=shuffleArray(productImage.productimg)
-    console.log("kaushal")
+    
     res.render("custum",{"data":listData,"button":listButton,"productimage":productImg})
 })
 // blog detail router 
@@ -81,7 +81,7 @@ router.get("/:key",(req,res)=>{
     const productImg=shuffleArray(productImage.productimg)
     const category=req.params.key
     const productL=productlList[category].product
-    console.log(productL)
+    
     res.render("product",{"data":listData,"button":listButton,"productimage":productImg,"productList":productL})
 })
 router.get("/product/:key",(req,res)=>{
@@ -91,7 +91,7 @@ router.get("/product/:key",(req,res)=>{
     const productImg=shuffleArray(productImage.productimg)
     const category=req.params.key
     const productD=productDetail[category]
-    console.log(category)
+   
     
     res.render("productDetails",{"data":listData,"button":listButton,"productimage":productImg,"productInfo":productD})
 })
