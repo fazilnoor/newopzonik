@@ -960,9 +960,16 @@ background-color: grey;
         padding: 0 !important;
         padding-top: 30px !important;
     }
+    .fotter_new_box{
+        padding-left:0;
+    }
 }
 
-
+@media (max-width: 991px){
+    .fotter_new_box{
+        padding-left:0;
+    }
+}
 #footer img{
     max-width: 85% !important;
 }
