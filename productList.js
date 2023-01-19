@@ -526,7 +526,24 @@ productList = {
             "imageName":"SC",
             "class":"Fiber Optic Rackmount Enclosure_SINGLEMODE_24 SC Port",
             "content":"OpZonik 1U Fiber Optic Rackmount Enclosure, 24 Port SC Singlemode Fiber Optic Patch panel"
+        },{
+            "image":"../../public/productImage/rackmount cable/1U 24 Port SCAPC Fiber Rackmount Encl.jpg",
+            "imageName":"SCAPC",
+            "class":"Fiber Optic Rackmount Enclosure_SINGLEMODE_24 SCAPC Port",
+            "content":"OpZonik 1U Fiber Optic Rackmount Enclosure, 24 Port SCAPC Singlemode Fiber Optic Patch Panel "
         },
+        {
+            "image":"../../public/productImage/rackmount cable/2U 48 Port SC Fiber Rackmount Encl.jpg",
+            "imageName":"SC",
+            "class":"OpZonik 2U Fiber Optic Rack Mount Enclosure 48 Port SC",
+            "content":"OpZonik 2U Fiber Optic Rack Mount Enclosure, 48 Port SC  Singlemode Fiber Optic Patch Panel "
+        },
+        {
+            "image":"../../public/productImage/rackmount cable/2U 48 Port LC Fiber Rackmount Encl.jpg",
+            "imageName":"LC",
+            "class":"OpZonik 2U Fiber Optic Rack Mount Enclosure 48 Port LC",
+            "content":"OpZonik 2U Fiber Optic Rack Mount Enclosure, 48 Port LC Singlemode Fiber Optic Patch Panel "
+        }
        
     ]
   },
@@ -537,21 +554,37 @@ productList = {
             "image":"../../public/productImage/loopback adapter test cable/sc.jpg",
             "imageName":"SC",
             "class":"Loopback Adapter Test Cable_SINGLEMODE_SC",
-            "content":"SC LOOPBACK ADAPTER TEST CABLE",
+            "content":"SC LOOPBACK ADAPTER TEST CABLE MULTIMODE OM1 62.5/125µm",
             "productName":"Loopback adapter test cable"
         },
         {
-            "image":"../../public/productImage/loopback adapter test cable/lc.jpg",
+            "image":"../../public/productImage/loopback adapter test cable/LC Loopback Cable S.Mode.jpg",
             "imageName":"LC",
             "class":"Loopback Adapter Test Cable_SINGLEMODE_LC",
-            "content":"LC LOOPBACK ADAPTER TEST CABLE"
+            "content":"LC LOOPBACK ADAPTER TEST CABLE SINGLEMODE 9/125µm"
         },
-        // {
-        //     "image":"../../public/productImage/loopback adapter test cable/fc.jpg",
-        //     "imageName":"FC",
-        //     "class":"Loopback Adapter Test Cable_SINGLEMODE_FC",
-        //     "content":"FC LOOPBACK ADAPTER TEST CABLE"
-        // },
+        {
+            "image":"../../public/productImage/loopback adapter test cable/LC Male to SC Female M.Mode OM3.jpg",
+            "imageName":"LC Male to SC Female",
+            "class":"Fiber Optic Adapter Cable_MULTIMODE DUPLEX_LC TO SC",
+            "content":"OpZonik 1FT LC to SC Fiber Optic Adapter Cable Multimode OM3 50/125µm Duplex"
+        },
+        {
+            "image":"../../public/productImage/loopback adapter test cable/LC Loopback Cable M.Mode OM3.jpg",
+            "imageName":"LC",
+            "class":"LC LOOPBACK ADAPTER TEST CABLE MULTIMODE OM3",
+            "content":"LC LOOPBACK ADAPTER TEST CABLE MULTIMODE OM3 50/125µm"
+        },{
+            "image":"../../public/productImage/loopback adapter test cable/LC Loopback Cable M.Mode OM1.jpg",
+            "imageName":"LC",
+            "class":"LC LOOPBACK ADAPTER TEST CABLE MULTIMODE OM1",
+            "content":"LC LOOPBACK ADAPTER TEST CABLE MULTIMODE OM1 62.5/125µm"
+        },{
+            "image":"../../public/productImage/loopback adapter test cable/SC Loopback Cable M.Mode OM1.jpg",
+            "imageName":"SC",
+            "class":"SC LOOPBACK ADAPTER TEST CABLE MULTIMODE OM1",
+            "content":"SC LOOPBACK ADAPTER TEST CABLE MULTIMODE OM1 62.5/125µm"
+        }
        
     ]
   },

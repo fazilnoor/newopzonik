@@ -2619,6 +2619,204 @@ productDesc = {
 
 </div>`
 
+  }
+  ,
+  "Fiber Optic Rackmount Enclosure_SINGLEMODE_24 SCAPC Port": {
+    "title": `OpZonik 1U Fiber Optic Rack Mount Enclosure, 24 Port SCAPC
+    Singlemode Fiber Optic Patch Panel Telescoping Sliding Style
+    includes – 24 SCAPC SX Singlemode Adapters, 24 Fiber
+    Pigtails, Splice Trays upto 24 Fiber capacity - 19” Fiber
+    Distribution Panel.
+
+  
+  `,
+    "info": `
+   
+ `,
+    "image": "../../public/productImage/rackmount cable/LC Rack Encl Cat3/1.jpg",
+    "description": `<div class="descrip">
+  <h2>Description</h2>
+  <div class="box1">
+    <h4></h4>
+    <ul>
+    <li>OpZonik Fiber optic patch panel is also called fiber distribution panel. Its main
+    function is to terminate the fiber optic cable and provide connection access to the
+    cable’s individual fibers. Fiber patch panel are termination units, which are designed
+    to provide a secure, organized chamber for housing connectors and splice units. The
+    front opening of the optical fiber patch panel is easy pull out & push in telescoping
+    sliding style and the top panel on the above which is removable for easy accessibility.
+     </li>
+    <li> OpZonik Fiber optic patch panel comes fitted with 24 SCAPC Singlemode Simplex
+    Adapters, 24 SCAPC Fiber Optic Pigtails, Splice Trays for 24 Fiber Capacity. Includes
+    24 Splicing Sleeves, Cable Ties, Double sided tape, Nuts Bolt and mounting ear
+    screws to fix and hold the incoming Fiber Optic Cables.</li>
+
+
+    <li> Provide space for the installation of optical cable terminals and storage of the
+    remaining fiber, which is convenient for installation and operation. Rack mount
+    enclosure provides with removable rubber grommets to protect the entry points of
+    fiber at the rear of the unit.</li>
+
+    <li>This rackmount Enclosure is made up of High quality cold rolled steel and comes in a
+    Grey colour powder coated. The Dimensions for this panel are: H 1-3/4" x W 19” x D
+    12-1/4” standard solid structure.</li>
+
+     <li>The device is flexible in configuration, easy to install and use, easy to maintain and
+     manageable, and is an indispensable device for fiber optic cable terminal or relay
+     node to realize fiber splice and jumper cable splice and access. The box with
+     sufficient impact strength is fixed to facilitate installation in different occasions.
+    </li>
+    </ul>
+   
+  </div>
+ 
+  <div class="box1">
+    <h4> Application</h4>
+    <ul>
+    <li> Telecommunication Network.</li>
+    <li> Local Area Network (LANs) & Wide Area Network (WANs).</li>
+    <li> FTTH, FTTB & FTTX</li>
+    <li> Data processing Networks.</li>
+    <li> CATV</li>
+    </ul>
+  </div>
+ 
+  
+
+</div>`
+
+  },
+   "OpZonik 2U Fiber Optic Rack Mount Enclosure 48 Port SC": {
+    "title": `OpZonik 2U Fiber Optic Rack Mount Enclosure, 48 Port SC
+    Singlemode Fiber Optic Patch Panel Telescoping Sliding Style
+    includes – 48 SC SX Singlemode Adapters, 48 Fiber Pigtails,
+    Splice Trays upto 48 Fiber capacity – 19” Fiber Distribution
+    Panel.    
+  
+  `,
+    "info": `
+   
+ `,
+    "image": "../../public/productImage/rackmount cable/1U 24 Port SCAPC Fiber Rackmount Encl.jpg",
+    "description": `<div class="descrip">
+  <h2>Description</h2>
+  <div class="box1">
+    <h4></h4>
+    <ul>
+    <li>OpZonik Fiber optic patch panel is also called fiber distribution panel. Its main
+    function is to terminate the fiber optic cable and provide connection access to the
+    cable’s individual fibers. Fiber patch panel are termination units, which are designed
+    to provide a secure, organized chamber for housing connectors and splice units. The
+    front opening of the optical fiber patch panel is easy pull out & push in telescoping
+    sliding style and the top panel on the above which is removable for easy accessibility.
+     </li>
+    <li> OpZonik Fiber optic patch panel comes fitted with 48 SC Singlemode Simplex
+    Adapters, 48 SC Fiber Optic Pigtails, Splice Trays for 48 Fiber Capacity. Includes 48
+    Splicing Sleeves, Cable Ties, Double sided tape, Nuts Bolt and mounting ear screws
+    to fix and hold the incoming Fiber Optic Cables.</li>
+
+
+    <li>Provide space for the installation of optical cable terminals and storage of the
+    remaining fiber, which is convenient for installation and operation. Rack Mount
+    enclosure provides with removable rubber grommets to protect the entry points of
+    fiber at the rear of the unit.
+    </li>
+
+    <li>This Rack Mount Enclosure is made up of High quality cold rolled steel and comes in
+    a Grey colour powder coated. The Dimensions for this panel are: H 3.5" x W 19” x D
+    12-1/4” standard solid structure</li>
+
+     <li>The device is flexible in configuration, easy to install and use, easy to maintain and
+     manageable, and is an indispensable device for fiber optic cable terminal or relay
+     node to realize fiber splice and jumper cable splice and access. The box with
+     sufficient impact strength is fixed to facilitate installation in different occasions.
+    </li>
+    </ul>
+   
+  </div>
+ 
+  <div class="box1">
+    <h4> Application</h4>
+    <ul>
+    <li> Telecommunication Network.</li>
+    <li> Local Area Network (LANs) & Wide Area Network (WANs).</li>
+    <li> FTTH, FTTB & FTTX</li>
+    <li> Data processing Networks.</li>
+    <li> CATV</li>
+    </ul>
+  </div>
+ 
+  
+
+</div>`
+
+  },
+  "OpZonik 2U Fiber Optic Rack Mount Enclosure 48 Port LC": {
+    "title": `OpZonik 2U Fiber Optic Rack Mount Enclosure, 48 Port LC
+    Singlemode Fiber Optic Patch Panel Telescoping Sliding Style
+    includes – 48 LC DX Singlemode Duplex Adapters, 48 Fiber
+    Pigtails, Splice Trays upto 48 Fiber capacity – 19” Fiber
+    Distribution Panel    
+  
+  `,
+    "info": `
+   
+ `,
+    "image": "../../public/productImage/rackmount cable/2U 48 Port LC Fiber Rackmount Encl.jpg",
+    "description": `<div class="descrip">
+  <h2>Description</h2>
+  <div class="box1">
+    <h4></h4>
+    <ul>
+    <li>OpZonik Fiber optic patch panel is also called fiber distribution panel. Its main
+    function is to terminate the fiber optic cable and provide connection access to the
+    cable’s individual fibers. Fiber patch panel are termination units, which are designed
+    to provide a secure, organized chamber for housing connectors and splice units. The
+    front opening of the optical fiber patch panel is easy pull out & push in telescoping
+    sliding style and the top panel on the above which is removable for easy accessibility.
+     </li>
+    <li>OpZonik Fiber optic patch panel comes fitted with 48 LC Singlemode Duplex
+    Adapters, 48 LC Fiber Optic Pigtails, Splice Trays for 48 Fiber Capacity. Includes 48
+    Splicing Sleeves, Cable Ties, Double sided tape, Nuts Bolt and mounting ear screws
+    to fix and hold the incoming Fiber Optic Cables.
+    </li>
+
+
+    <li>Provide space for the installation of optical cable terminals and storage of the
+    remaining fiber, which is convenient for installation and operation. Rack Mount
+    enclosure provides with removable rubber grommets to protect the entry points of
+    fiber at the rear of the unit.
+    
+    </li>
+
+    <li>This Rack Mount Enclosure is made up of High quality cold rolled steel and comes in
+    a Grey colour powder coated. The Dimensions for this panel are: H 3.5" x W 19” x D
+    12-1/4” standard solid structure</li>
+
+     <li>The device is flexible in configuration, easy to install and use, easy to maintain and
+     manageable, and is an indispensable device for fiber optic cable terminal or relay
+     node to realize fiber splice and jumper cable splice and access. The box with
+     sufficient impact strength is fixed to facilitate installation in different occasions.
+    </li>
+    </ul>
+   
+  </div>
+ 
+  <div class="box1">
+    <h4> Application</h4>
+    <ul>
+    <li> Telecommunication Network.</li>
+    <li> Local Area Network (LANs) & Wide Area Network (WANs).</li>
+    <li> FTTH, FTTB & FTTX</li>
+    <li> Data processing Networks.</li>
+    <li> CATV</li>
+    </ul>
+  </div>
+ 
+  
+
+</div>`
+
   },
 
 
@@ -3049,7 +3247,7 @@ SC compatible duplex adapters are comprised of a polymer outer body and inner as
   }, "Fiber Optic Adapter Cable_MULTIMODE DUPLEX_LC TO SC": {
     "title": "OpZonik 1FT LC to SC Fiber Optic Adapter Cable Multimode OM1 62.5/125 Duplex, LC Male to SC Female Fiber Adapter Cable – 0.3 Meter (1FT)",
     "info": ``,
-    "image": "../../public/productImage/Adapter_Cables/LC TO SC M.MODE DX ADAPTER CABLE.jpg",
+    "image": "../../public/productImage/loopback adapter test cable/LC Male to SC Female M.Mode OM3.jpg",
     "mark":"yes",
     "description": `<div class="descrip">
   <h2>Product Description</h2>
@@ -3895,7 +4093,7 @@ SC compatible duplex adapters are comprised of a polymer outer body and inner as
   //LOOPBACK ADAPTER TEST CABLE
   "Loopback Adapter Test Cable_SINGLEMODE_SC": {
     "title": "SC LOOPBACK ADAPTER TEST CABLE",
-    "info": `SC Loopback Adapter Test Cable are used primarily as a mean to test optical link in networks or devices by loop back the connections from the TX (transmit) pairs to the RX (receive) pair.
+    "info": `
 
  `,
     "image": "../../public/productImage/loopback adapter test cable/sc.jpg",
@@ -3941,12 +4139,61 @@ SC compatible duplex adapters are comprised of a polymer outer body and inner as
 
 </div>`
   },
+  "SC LOOPBACK ADAPTER TEST CABLE MULTIMODE OM1": {
+    "title": "SC LOOPBACK ADAPTER TEST CABLE MULTIMODE OM1 62.5/125µm",
+    "info": `SC Loopback Adapter Test Cable are used primarily as a mean to test optical link in networks or
+    devices by loop back the connections from the TX (transmit) pairs to the RX (receive) pair.`,
+    "image": "../../public/productImage/loopback adapter test cable/SC Loopback Cable M.Mode OM1.jpg",
+    "description": `<div class="descrip">
+  <h2>Product Description</h2>
+  <div class="box1">
+  <p>By doing this, a complete optical link is formed, allowing the optical performance evaluation of a
+  discrete component or a complete link in a network path covering one or more interfaces.</p>
+  </div>
+  
+  
+  <div class="box1">
+  
+  <ul>
+  <li>Diameter : 2mm</li>
+  <li>Product Type : SC LOOP BACK</li>
+  <li>Core Size :  Multimode OM1 62.5/125µm</li>
+  <li>Insertion Loss : Standard</li>
+  <li>Cable Jacket : LSZH</li>
+
+  
+  </ul>
+  </div>
+  <div class="box1">
+    <h4>Feature  </h4>
+    <ul>
+      <li> Available in single mode and multimode version</li>
+      <li> Connector end: PC, UPC</li>
+      <li> High precision alignment</li>
+      <li> High disposal density</li>
+      <li> Low insertion loss</li>
+      <li> High return loss</li>
+    </ul>
+  </div>
+  <div class="box1">
+    <h4> Applications</h4>
+    <ul>
+      <li> Data center systems</li>
+      <li> Fiber optic telecommunication system</li>
+      <li> Fiber optic access network</li>
+    
+    </ul>
+  </div>
+
+</div>`
+  },
   "Loopback Adapter Test Cable_SINGLEMODE_LC": {
-    "title": "LC LOOPBACK ADAPTER TEST CABLE",
-    "info": `LC Loopback Adapter Test Cable are used primarily as a mean to test optical link in networks or devices by loop back the connections from the TX (transmit) pairs to the RX (receive) pair. 
+    "title": "LC LOOPBACK ADAPTER TEST CABLE SINGLEMODE 9/125µm",
+    "info": `LC Loopback Adapter Test Cable are used primarily as a mean to test optical link in networks or
+    devices by loop back the connections from the TX (transmit) pairs to the RX (receive) pair. 
 
  `,
-    "image": "../../public/productImage/loopback adapter test cable/lc.png",
+    "image": "../../public/productImage/loopback adapter test cable/LC Loopback Cable S.Mode.jpg",
     "description": `<div class="descrip">
   <h2>Product Description</h2>
   <div class="box1">
@@ -3957,8 +4204,8 @@ SC compatible duplex adapters are comprised of a polymer outer body and inner as
   
   <ul>
   <li>Diameter : 3mm</li>
-  <li>Product Type : SC LOOP BACK</li>
-  <li>Core Size : Single mode & Multimode</li>
+  <li>Product Type : LC LOOP BACK</li>
+  <li>Core Size : Singlemode 9/125µm</li>
   <li>Insertion Loss : Standard</li>
   <li>Cable Jacket : LSZH</li>
 
@@ -3988,6 +4235,111 @@ SC compatible duplex adapters are comprised of a polymer outer body and inner as
 
 </div>`
   },
+  "LC LOOPBACK ADAPTER TEST CABLE MULTIMODE OM1": {
+    "title": "LC LOOPBACK ADAPTER TEST CABLE MULTIMODE OM3 50/125µm",
+    "info": `By doing this, a complete optical link is formed, allowing the optical performance evaluation of a
+    discrete component or a complete link in a network path covering one or more interfaces.
+    
+    
+     
+
+ `,
+    "image": "../../public/productImage/loopback adapter test cable/LC Loopback Cable M.Mode OM1.jpg",
+    "description": `<div class="descrip">
+  <h2>Product Description</h2>
+  <div class="box1">
+  <p> By doing this, a complete optical link is formed, allowing the optical performance evaluation of a
+  discrete component or a complete link in a network path covering one or more interfaces.
+  </p>
+  </div>
+  
+  <div class="box1">
+  
+  <ul>
+  <li>Diameter : 2mm</li>
+  <li>Product Type : LC LOOP BACK</li>
+  <li>Core Size :   Multimode OM1 62.5/125µm</li>
+  <li>Insertion Loss : Standard</li>
+  <li>Cable Jacket : LSZH</li>
+
+  
+  </ul>
+  </div>
+  <div class="box1">
+    <h4>Feature  </h4>
+    <ul>
+      <li> Available in single mode and multimode version</li>
+      <li> Connector end: PC, UPC</li>
+      <li> High precision alignment</li>
+      <li> High disposal density</li>
+      <li> Low insertion loss</li>
+      <li> High return loss</li>
+    </ul>
+  </div>
+  <div class="box1">
+    <h4> Applications</h4>
+    <ul>
+      <li> Data center systems</li>
+      <li>Fiber optic telecommunication system</li>
+      <li> Fiber optic access network</li>
+    
+    </ul>
+  </div>
+
+</div>`
+  },
+  "LC LOOPBACK ADAPTER TEST CABLE MULTIMODE OM3": {
+    "title": "LC LOOPBACK ADAPTER TEST CABLE MULTIMODE OM3 50/125µm",
+    "info": `LC Loopback Adapter Test Cable are used primarily as a mean to test optical link in networks or
+    devices by loop back the connections from the TX (transmit) pairs to the RX (receive) pair.
+     
+
+ `,
+    "image": "../../public/productImage/loopback adapter test cable/LC Loopback Cable M.Mode OM3.jpg",
+    "description": `<div class="descrip">
+  <h2>Product Description</h2>
+  <div class="box1">
+  <p> By doing this, a complete optical link is formed, allowing the optical performance evaluation of a
+  discrete component or a complete link in a network path covering one or more interfaces.
+  </p>
+  </div>
+  
+  <div class="box1">
+  
+  <ul>
+  <li>Diameter : 2mm</li>
+  <li>Product Type : LC LOOP BACK</li>
+  <li>Core Size :  Multimode OM3 50/125µm</li>
+  <li>Insertion Loss : Standard</li>
+  <li>Cable Jacket : LSZH</li>
+
+  
+  </ul>
+  </div>
+  <div class="box1">
+    <h4>Feature  </h4>
+    <ul>
+      <li> Available in single mode and multimode version</li>
+      <li> Connector end: PC, UPC</li>
+      <li> High precision alignment</li>
+      <li> High disposal density</li>
+      <li> Low insertion loss</li>
+      <li> High return loss</li>
+    </ul>
+  </div>
+  <div class="box1">
+    <h4> Applications</h4>
+    <ul>
+      <li> Data center systems</li>
+      <li>Fiber optic telecommunication system</li>
+      <li> Fiber optic access network</li>
+    
+    </ul>
+  </div>
+
+</div>`
+  },
+
   "Loopback Adapter Test Cable_SINGLEMODE_FC": {
     "title": "FC LOOPBACK ADAPTER TEST CABLE",
     "info": `FC Loopback Adapter Test Cable are used primarily as a mean to test optical link in networks or devices by loop back the connections from the TX (transmit) pairs to the RX (receive) pair.
