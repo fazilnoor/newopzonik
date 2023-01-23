@@ -533,7 +533,7 @@ productList = {
             "content":"OpZonik 1U Fiber Optic Rackmount Enclosure, 24 Port SCAPC Singlemode Fiber Optic Patch Panel "
         },
         {
-            "image":"../../public/productImage/rackmount cable/2U 48 Port SC Fiber Rackmount Encl.jpg",
+            "image":"../../public/productImage/rackmount cable/1U 24 Port SCAPC Fiber Rackmount Encl.jpg",
             "imageName":"SC",
             "class":"OpZonik 2U Fiber Optic Rack Mount Enclosure 48 Port SC",
             "content":"OpZonik 2U Fiber Optic Rack Mount Enclosure, 48 Port SC  Singlemode Fiber Optic Patch Panel "
