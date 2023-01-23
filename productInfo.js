@@ -2697,7 +2697,7 @@ productDesc = {
     "info": `
    
  `,
-    "image": "../../public/productImage/rackmount cable/1U 24 Port SCAPC Fiber Rackmount Encl.jpg",
+    "image": "../../public/productImage/rackmount cable/2U 48 Port SC Fiber Rackmount Encl.jpg",
     "description": `<div class="descrip">
   <h2>Description</h2>
   <div class="box1">
