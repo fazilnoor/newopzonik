@@ -2697,7 +2697,7 @@ productDesc = {
     "info": `
    
  `,
-    "image": "../../public/productImage/rackmount cable/1U 24 Port SCAPC Fiber Rackmount Encl.jpg",
+    "image": "../../public/productImage/rackmount cable/2U 48 Port SC Fiber Rackmount Encl.jpg",
     "description": `<div class="descrip">
   <h2>Description</h2>
   <div class="box1">
@@ -4236,7 +4236,7 @@ SC compatible duplex adapters are comprised of a polymer outer body and inner as
 </div>`
   },
   "LC LOOPBACK ADAPTER TEST CABLE MULTIMODE OM1": {
-    "title": "LC LOOPBACK ADAPTER TEST CABLE MULTIMODE OM3 50/125µm",
+    "title": "LC LOOPBACK ADAPTER TEST CABLE MULTIMODE OM1 62.5/125µm",
     "info": `By doing this, a complete optical link is formed, allowing the optical performance evaluation of a
     discrete component or a complete link in a network path covering one or more interfaces.
     

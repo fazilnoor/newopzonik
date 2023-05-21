@@ -306,6 +306,13 @@ productList = {
             "content":"OpZonik 1FT LC to SC Fiber Optic Adapter Cable Singlemode 9/125µm Duplex, LC Male to SC Female Fiber Adapter Cable – 0.3 Meter (1FT)",
             "productName":"Fiber Optic Adapter Cable"
         },
+        
+        {
+            "image":"../../public/productImage/loopback adapter test cable/LC Male to SC Female M.Mode OM3.jpg",
+            "imageName":"LC Male to SC Female",
+            "class":"Fiber Optic Adapter Cable_MULTIMODE DUPLEX_LC TO SC",
+            "content":"OpZonik 1FT LC to SC Fiber Optic Adapter Cable Multimode OM3 50/125µm Duplex                                     "
+        },
         {
             "image":"../../public/productImage/Adapter_Cables/LC TO ST  S.MODE DX ADPTER CABLE.jpg",
             "imageName":"LC TO ST",
@@ -550,24 +557,18 @@ productList = {
 //   loopcable cable
 "Loopback Adapter Test Cable_SINGLEMODE":{
     "product":[
-        {
-            "image":"../../public/productImage/loopback adapter test cable/sc.jpg",
-            "imageName":"SC",
-            "class":"Loopback Adapter Test Cable_SINGLEMODE_SC",
-            "content":"SC LOOPBACK ADAPTER TEST CABLE MULTIMODE OM1 62.5/125µm",
-            "productName":"Loopback adapter test cable"
-        },
+        // {
+        //     "image":"../../public/productImage/loopback adapter test cable/sc.jpg",
+        //     "imageName":"SC",
+        //     "class":"Loopback Adapter Test Cable_SINGLEMODE_SC",
+        //     "content":"SC LOOPBACK ADAPTER TEST CABLE MULTIMODE OM1 62.5/125µm",
+        //     "productName":"Loopback adapter test cable"
+        // },
         {
             "image":"../../public/productImage/loopback adapter test cable/LC Loopback Cable S.Mode.jpg",
             "imageName":"LC",
             "class":"Loopback Adapter Test Cable_SINGLEMODE_LC",
             "content":"LC LOOPBACK ADAPTER TEST CABLE SINGLEMODE 9/125µm"
-        },
-        {
-            "image":"../../public/productImage/loopback adapter test cable/LC Male to SC Female M.Mode OM3.jpg",
-            "imageName":"LC Male to SC Female",
-            "class":"Fiber Optic Adapter Cable_MULTIMODE DUPLEX_LC TO SC",
-            "content":"OpZonik 1FT LC to SC Fiber Optic Adapter Cable Multimode OM3 50/125µm Duplex"
         },
         {
             "image":"../../public/productImage/loopback adapter test cable/LC Loopback Cable M.Mode OM3.jpg",
