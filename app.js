@@ -29,6 +29,6 @@ app.use("/public",express.static(path.join("public")))
 
 app.use(allrouter);
 
-app.listen("80",()=>{
+app.listen("8080",()=>{
     console.log("listening post number 80")
 })
