@@ -1087,6 +1087,33 @@ background-color: grey;
     100% { box-shadow: 0px 0px 3px 11px #d3d3d300; }
 }
 
+.my-queryform .modal-content{
+    width: 100%;
+    left: 0;
+}
+
+.my-queryform .modal-body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.my-queryform-button {
+    padding: 10px !important;
+    border-radius: 5px !important;
+    margin-bottom: 15px !important;
+}
+
+.my-queryform-button:hover {
+    color: white;
+}
+
+.my-queryform button.btn.btn-primary {
+    width: 100% !important;
+    background-color: black;
+    border: none;
+    border-radius: 0px;
+    padding: 10px;
+}
 
 @media (max-width: 516px){
     .footer-last .container {

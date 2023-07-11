@@ -12,7 +12,7 @@
                 </div>
                 {{#each productList}}        
                 <div class="col-lg-3">
-                    <div class="box_new">
+                    <div class="box_new text-center">
                              <a href="/product/{{class}}" style="text-decoration:none ;">
                                 <div class="Product-section">
                                     <img src="{{image}}" alt="" loading="lazy"  class="img-fluid">
@@ -23,6 +23,7 @@
                                     <button class="btn more_btn">More</button>
                                 </div>
                             </a>
+                            <button type="button" class="btn request my-queryform-button" data-bs-toggle="modal" data-bs-target="#exampleModal1">Query Now</button>
                     </div>
                 </div>
                 {{/each}}
@@ -40,4 +41,60 @@
           {{>slider}}
       </div>
     </section>
+
+<!-- Modal -->
+<div class="modal fade my-queryform" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          {{!-- <div class="col-lg-6 col-md-6 col-12">
+            <div class="contact-side-img">
+              <img src="../public/image/light (1).png" alt="">
+            </div>
+          </div> --}}
+          <div class="col-sm-12">
+            <h4 class="text-center">Query Form</h4>
+            <form action="" id="modal_form">
+              <div class="form-group mt-3">
+                <label for="" class="mb-2">Name</label>
+                <input type="text" class="form-control" id="modal_name" placeholder="Enter name">
+                <p id="m_name"></p>
+              </div>
+              <div class="form-group mt-3">
+                <label for="" class="mb-2">Mobile Number</label>
+                <input type="text" class="form-control" id="modal_number" maxlength="10" pattern="[1-9]+[0-9]{9}" placeholder="Enter mobile number" >
+                <p id="m_number"></p>
+              </div>
+              <div class="form-group mt-3">
+                <label for="" class="mb-2">Email</label>
+                <input type="text" class="form-control" id="modal_email" placeholder="Enter mail">
+                <p id="m_email"></p>
+              </div>
+
+              <div class="form-group mt-3">
+                <label for="" class="mb-2">Address</label>
+                <input type="text" class="form-control" id="modal_address" placeholder="Enter address">
+                <p id="m_address"></p>
+              </div>
+              <div class="form-group mt-3">
+                <label for="" class="mb-2">Query</label>
+                <textarea name="" class="form-control" id="modaltext" placeholder="Enter query"></textarea>
+                <p id="m_query"></p>
+              </div>
+              <button type="button" class="btn btn-primary" onclick="onModal()">Submit Now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      {{!-- <div class="modal-footer">
+      </div> --}}
+    </div>
+  </div>
+</div>
+
 {{>footer}}
