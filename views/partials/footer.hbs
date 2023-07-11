@@ -450,7 +450,8 @@
         data: JSON.stringify(data),
         contentType: 'application/json'
       }).done(function () {
-        alert("Your Message Has Been Sent Successfully!")
+        alert("Your Message Has Been Sent Successfully!");
+        location.reload();
         document.getElementById("modal_name").value = "";
         document.getElementById("moda_email").value = "";
         document.getElementById("modal_number").value = "";
