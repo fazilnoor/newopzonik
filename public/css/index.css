@@ -1052,7 +1052,7 @@ background-color: grey;
 .footer-last .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 10px 0px;
 }
 
@@ -1101,6 +1101,7 @@ background-color: grey;
     padding: 10px !important;
     border-radius: 5px !important;
     margin-bottom: 15px !important;
+    margin-top: 0px !important;
 }
 
 .my-queryform-button:hover {

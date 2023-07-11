@@ -20,10 +20,14 @@
                                 <div class="content_img text-center">
                                     <h4>{{imageName}}</h4>
                                     <p>{{content}}</p>
-                                    <button class="btn more_btn">More</button>
                                 </div>
                             </a>
+                            <div class="d-flex justify-content-around">
+                            <a href="/product/{{class}}" style="text-decoration:none ;">
+                              <button class="btn more_btn">More</button>
+                            </a>
                             <button type="button" class="btn request my-queryform-button" data-bs-toggle="modal" data-bs-target="#exampleModal1">Query Now</button>
+                            </div>
                     </div>
                 </div>
                 {{/each}}
