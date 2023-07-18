@@ -90,7 +90,7 @@
                 </li>
                 <li>
                   <div class="social-icons amazon-icon">
-                    <a href="https://www.amazon.ca/s?k=opzonik&crid=GD3O4NWKXLJU&sprefix=opzonik%2Caps%2C327&ref=nb_sb_noss">
+                    <a href="https://www.amazon.ca/stores/OpZonik/Homepage/page/4F6489C2-AA01-4C78-BAF2-FFB32F929B1A" target="_blank">
                       <i class="fa-brands fa-amazon"></i>
                     </a>
                   </div>
@@ -357,8 +357,8 @@
     const phone = document.getElementById("modal_number").value;
     const address = document.getElementById("modal_address").value;
     const text = document.getElementById("modaltext").value;
-
-
+    const product = document.getElementById("modal_product").value
+    console.log(product)
 
 
     function emailMatch(email) {
@@ -428,15 +428,23 @@
 
       var data = {
         service_id: 'service_8zp4yhp',
-        template_id: 'template_sp2t0wq',
+        template_id: 'template_lxioo5d',
         user_id: 'user_mTjMBBP092bpZsnZTyLfp',
         template_params: {
-          'from_name': name,
+        /*  'from_name': name,
           'from_email': email,
           'from_number': phone,
           'from_query': text,
           'from_address': address,
-          'to_owner': 'opzonik.care@gmail.com',
+          'to_owner': 'opzonik.care@gmail.com', */
+          from_name: name,
+          from_email: email,
+          from_number: phone,
+          from_product: product,
+          from_query: text,
+          from_address: address,
+          to_ownerl: 'fazil.noor@geonix.in',
+          company: "OPZONIK/SPECTRUM",
         }
       };
 
