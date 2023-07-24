@@ -655,8 +655,7 @@
         contentType: 'application/json'
       }).done(function () {
         alert("Our Custom Cable Query Has Been Sent Successfully!")
-
-        //  location.reload();
+        location.reload();
       }).fail(function (error) {
         alert('Oops... ' + JSON.stringify(error));
       });
