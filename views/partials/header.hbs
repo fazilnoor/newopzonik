@@ -1,6 +1,15 @@
 <html lang="en">
 
 <head>
+
+  {{!-- redirection code from http to https --}}
+  <script>
+    if (window.location.protocol === "http:") {
+      var httpsURL = "https://" + window.location.host + window.location.pathname + window.location.search;
+      window.location.href = httpsURL;
+    }
+  </script>
+
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
