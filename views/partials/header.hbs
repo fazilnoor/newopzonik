@@ -2,8 +2,29 @@
 
 <head>
 
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '5797204863719004');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=5797204863719004&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+
   {{!-- redirection code from http to https --}}
-  {{!-- <script>
+  {{!--
+  <script>
     if (window.location.protocol === "http:") {
       var httpsURL = "https://" + window.location.host + window.location.pathname + window.location.search;
       window.location.href = httpsURL;
@@ -13,6 +34,9 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="facebook-domain-verification" content="bahw5hedpmf0bqpuxzrv37k16udu6z" />
+
   <title>Opzonik</title>
   <link rel="icon" type="image/x-icon" href="./assets/image/FEVI INDIANA.png">
 
@@ -22,7 +46,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap"
     rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -73,26 +97,29 @@
         <div class="collapse navbar-collapse pd-5" id="navbarSupportedContent">
           <ul class="navbar-nav m-auto mr-0 mb-2 mb-lg-0">
             <ul class="category">
-              <li class="categoryList mr-2"><img src="../../public/image/icon1.png" loading="lazy"  alt=""> Product-Category
+              <li class="categoryList mr-2"><img src="../../public/image/icon1.png" loading="lazy" alt="">
+                Product-Category
                 <ul class="sub_list">
                   {{#each data}}
                   <a href="/{{newCategory}}">
-                  <li>{{categoryName}}
-                    <ul class="sub_list1">
-                      {{#subCategories}}
-                      <a href="/{{categoryName}}_{{subCategoryName}}"><li>{{subCategoryName}}
+                    <li>{{categoryName}}
+                      <ul class="sub_list1">
+                        {{#subCategories}}
+                        <a href="/{{categoryName}}_{{subCategoryName}}">
+                          <li>{{subCategoryName}}
 
-                        {{!-- <ul class="sub_list2">
-                          {{#products}}
-                          <li><a href="/{{categoryName}}_{{subCategoryName}}_{{productName}}">{{productName}}</a></li>
-                          {{/products}}
-                        </ul> --}}
-                      </li>
-                      </a>
-                      {{/subCategories}}
-                    </ul>
-                  </li>
-                  {{/each}}
+                            {{!-- <ul class="sub_list2">
+                              {{#products}}
+                              <li><a href="/{{categoryName}}_{{subCategoryName}}_{{productName}}">{{productName}}</a>
+                              </li>
+                              {{/products}}
+                            </ul> --}}
+                          </li>
+                        </a>
+                        {{/subCategories}}
+                      </ul>
+                    </li>
+                    {{/each}}
                   </a>
                 </ul>
               </li>
@@ -104,16 +131,18 @@
             <li class="nav-item">
               <a class="nav-link " href="/custom">Custom Cable</a>
             </li>
-             <li class="nav-item">
+            <li class="nav-item">
               <a class="nav-link " href="/blog">Blog</a>
             </li>
             <li class="nav-item">
               <a class="nav-link " href="/contact">Contact Us</a>
             </li>
-             <li class="nav">
-              <a class="nav-link1" href="https://api.whatsapp.com/send?phone=+17754688160&text=Hi"><i class="fa-brands fa-whatsapp"></i></a>
+            <li class="nav">
+              <a class="nav-link1" href="https://api.whatsapp.com/send?phone=+17754688160&text=Hi"><i
+                  class="fa-brands fa-whatsapp"></i></a>
             </li>
-            <li class="button"><button type="button" class="btn nav_botton"><a href="tel: +1 775 468 8160" style="color: white;"> <i class="fa-solid fa-phone"></i> +1 775 468 8160</button> </a></li>
+            <li class="button"><button type="button" class="btn nav_botton"><a href="tel: +1 775 468 8160"
+                  style="color: white;"> <i class="fa-solid fa-phone"></i> +1 775 468 8160</button> </a></li>
           </ul>
 
         </div>
