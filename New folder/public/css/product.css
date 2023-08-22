@@ -1,0 +1,95 @@
+
+.request{
+    color: white;
+    background-color: red;
+    border-radius: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 5px;
+
+   
+    
+
+
+}
+.box1{
+    margin-left: 20px;
+}
+.box1 h4{
+    margin-left: -20px;
+}
+.box1 ul{
+   
+    padding-left: 0px;
+}
+.box1 p{
+    margin-left: -20px;
+}
+.box1 ul li{
+    margin-top: 10px;
+}
+.main {
+    max-width:1400px !important;
+    margin: auto;
+}
+.owl-item{
+    width: auto !important;
+    margin-right: 10px !important;
+
+      
+}
+/* .details_image img{
+    border;
+} */
+.content1{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+.owl-stage{
+    padding-bottom: 10px;
+}
+.view_all a{
+    color: red;
+    text-decoration: none;
+}
+.view_all a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+.active3{
+    background-color: black !important
+    ;
+    color: white !important;
+}
+#exampleModal .btn{
+    background: red;
+    border: none;
+    border-radius: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    box-shadow: none;
+    margin-bottom: 20px;
+}
+.modal-content{
+    border-radius: 0px;
+}
+.modal-body .form-control{
+    border-radius: 0px;
+}
+.modal-body label{
+    font-weight: 600;
+}
+
+#modal_form p{
+    color:red !important;
+}
+
+@media (max-width: 516px){
+    .content1{
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 30px;
+    }
+}

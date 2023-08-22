@@ -1,0 +1,676 @@
+<section id="footer">
+  <div class="container">
+    <div class="row pt-5 m-0">
+      <div class="col-lg-3 mb-2">
+        <div class="fotter_image">
+            <img src="../../public/image/logo_footer_obzonik_v2.png" alt="" class="img-fluid">
+        </div>
+      
+      </div>
+     
+      {{!-- <div class="col-lg-3 mb-2">
+        <div class="footer_product">
+          <div class="fotter_new_box">
+            <h4>Connect With Us</h4>
+          <ul class="social-list">
+            <li>
+              <div class="social-icons">
+              <a href="https://www.facebook.com/Opzonik-100289456191264">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              </div>
+            </li>
+            <li>
+              <div class="social-icons">
+                <a href="https://www.instagram.com/opzonik/">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="social-icons">
+                <a href="https://www.youtube.com/channel/UCYQxbhE6WptixEkHYeebwYA">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </div>
+            </li>
+            <li><a href="https://www.facebook.com/Opzonik-100289456191264">Facebook</a></li>
+            <li><a href="https://www.instagram.com/opzonik/">Instagram</a></li>
+            <li><a href="https://www.youtube.com/channel/UCYQxbhE6WptixEkHYeebwYA">YouTube</a></li>
+          </ul>
+          </div>
+        </div>
+      </div> --}}
+      <div class="col-lg-6 mb-2">
+        <div class="footer_product">
+          <h4>CONTACT</h4>
+          <ul>
+            <li><a href="tel: +1 775 468 8160"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;  +1 775 468 8160</a></li>
+             <li><a href=""><i class="fa-solid fa-building"></i>&nbsp;&nbsp;  Spectrum Technologies</a></li>
+            <li><a href=""><i class="fa-solid fa-location-dot"></i>&nbsp; 4/7, Kalkaji Extension, New Delhi 110019, India, <br >
+                Factory: B-26, Sector 88, Phase 2, Noida (U.P), India</a></li>
+                <br/>
+            <li><a href=""><i class="fa-solid fa-building"></i>&nbsp; Overseas Address </a></li>
+            <li><a href=""><i class="fa-solid fa-location-dot"></i>&nbsp; 3574 Copernicus Drive, Mississaunga, Ontario L5B 3L2</a></li>
+            <li><a href="mailto:opzonik.care@gmail.com"><i class="fa-solid fa-envelope"></i>&nbsp; opzonik.care@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+       <div class="col-lg-3 mb-2">
+        {{!-- <div class="footer_product">
+          <div class="googlemap">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7009.57295530032!2d77.259383!3d28.546137!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3dcc6fdd665%3A0x628bbc2f29f17f0b!2s4-7%2C%20Block%204%2C%20Kalkaji%20Extension%2C%20Kalkaji%2C%20New%20Delhi%2C%20Delhi%20110019!5e0!3m2!1sen!2sin!4v1657537716781!5m2!1sen!2sin"></iframe>
+          </div>
+          
+        </div> --}}
+        <div class="col-8">
+        <div class="fotter_new_box">
+            <h4 class="mb-3">Connect With Us</h4>
+              <ul class="social-list">
+                <li>
+                  <div class="social-icons">
+                  <a href="https://www.facebook.com/Opzonik-100289456191264">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="social-icons">
+                    <a href="https://www.instagram.com/opzonik/">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="social-icons">
+                    <a href="https://www.youtube.com/channel/UCYQxbhE6WptixEkHYeebwYA">
+                      <i class="fa-brands fa-youtube"></i>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="social-icons amazon-icon">
+                    <a href="https://www.amazon.ca/stores/OpZonik/Homepage/page/4F6489C2-AA01-4C78-BAF2-FFB32F929B1A" target="_blank">
+                      <i class="fa-brands fa-amazon"></i>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+          </div>
+          </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="footer-last">
+    <div class="container">
+      <p class="footer-copyright">Copyright © 2023 OPZONIK. All Rights Reserved.</p>
+      {{!-- <figure class="footer-payments">
+        <img src="https://d-themes.com/angular/molla/demo4/assets/images/payments.png" alt="Payment methods" width="272" height="20">
+        </figure> --}}
+    </div>
+  </div>
+</section>
+
+<script src="../../public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="../../public/owlCarosel/owl.carousel.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="../../public/js/anim.js"> </script>
+
+
+
+<script>
+  filterSelection("all")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("column");
+    
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      console.log(x[i])
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
+    }
+  }
+
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+
+
+  $(function () {
+
+    $(".item").click(function () {
+      // remove classes from all
+      $(".item").removeClass("active1");
+      $(".item .btn").removeClass("active3");
+      // add class to the one we clicked
+      $(this).addClass("active1");
+    });
+  });
+</script>
+<script>
+  var swiper = new Swiper(".mySwiper3", {
+    slidesPerView: 5,
+    spaceBetween: 5,
+    loop: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+      clickable: true
+    },
+
+    breakpoints: {
+      600: {
+        slidesPerView: 6,
+        spaceBetween: 40,
+      },
+
+
+      900: {
+        slidesPerView: 5,
+        spaceBetween: 40,
+      },
+
+    }
+  });
+</script>
+
+<script>
+  var swiper = new Swiper(".mySwiper2", {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    loop: true,
+    navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+         breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 3,
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 4,
+      spaceBetween: 40
+    }
+  }
+  });
+</script>
+<script>
+  $(function () {
+    // Owl Carousel
+    var owl = $(".owl-carousel");
+    owl.owlCarousel({
+      items: 3,
+      margin: 1,
+
+      nav: true
+    });
+  });
+</script>
+
+{{!-- // email for contact form --}}
+<script>
+  function onSubmit() {
+    console.log("hello")
+    const name = document.getElementById("contact_name").value;
+    const email = document.getElementById("contact_email").value;
+    const phone = document.getElementById("contact_number").value;
+    const address = document.getElementById("contact_address").value;
+    const text = document.getElementById("contact_query").value;
+
+
+
+
+    function emailMatch(email) {
+
+      return email.match("^[a-zA-Z]+([.-]?[a-zA-Z0-9]+)*@([a-zA-Z]+([.-]?[a-zA-Z]))[.]{1}[a-zA-Z]{2,}$")
+
+      console.log("email is valid")
+    }
+
+    function nameMatch(name) {
+      if (name.match("^[a-zA-Z]{3,20}$")) {
+        return true
+      }
+      else {
+        return false
+      }
+    }
+    function phonematch(phone) {
+      if (phone.match("^((\\+91-?)|0)?[0-9]{10}$")) {
+        return true
+      } else {
+        return false
+      }
+    }
+    console.log("phone match", phonematch(phone))
+
+    function errorText(id, message) {
+      document.getElementById(id).innerHTML = message
+      setTimeout(() => {
+        document.getElementById(id).innerHTML = "";
+      }, 3000)
+      return false
+    }
+
+
+    if (name == "" || name == null) {
+
+      errorText("c_name", "Please Enter Your Name")
+    } 
+    else if (phone == "" || phone == null) {
+
+      errorText("c_mobile", "Please Enter Phone Number")
+    }
+    else if (!phonematch(phone)) {
+
+      errorText("c_mobile", "Please Enter Valid Phone Number")
+    }
+    else if (email == "" || email == null) {
+
+      errorText("c_mail", "Please Enter Your Email")
+    }
+    else if (!emailMatch(email)) {
+
+      errorText("c_mail", "Please Enter  Valid Email")
+    }
+    else if (address == "" || address == null) {
+
+      errorText("c_address", "Please Enter  Your Address")
+    }
+
+    else if (text == "" || text == null) {
+
+      errorText("c_query", "Please Enter  Your Query")
+    } else {
+
+      var data = {
+        service_id: 'service_8zp4yhp',
+        template_id: 'template_sp2t0wq',
+        user_id: 'user_mTjMBBP092bpZsnZTyLfp',
+        template_params: {
+          'from_name': name,
+          'from_email': email,
+          'from_number': phone,
+          'from_query': text,
+          'from_address': address,
+          'to_owner': 'opzonik.care@gmail.com',
+        }
+      };
+
+      $.ajax('https://api.emailjs.com/api/v1.0/email/send', {
+        type: 'POST',
+        data: JSON.stringify(data),
+        contentType: 'application/json'
+      }).done(function () {
+        alert("Your Message Has Been Sent Successfully!")
+        document.getElementById("contact_name").value = "";
+        document.getElementById("contact_email").value = "";
+        document.getElementById("contact_number").value = "";
+        document.getElementById("contact_query").value = "";
+        document.getElementById("contact_address").value = "";
+        //  location.reload();
+      }).fail(function (error) {
+        alert('Oops... ' + JSON.stringify(error));
+      });
+    }
+
+  }
+</script>
+{{!-- //end of contact form --}}
+
+{{!-- //modal for --}}
+<script>
+  function onModal() {
+    console.log("hello")
+    const name = document.getElementById("modal_name").value;
+    const email = document.getElementById("modal_email").value;
+    const phone = document.getElementById("modal_number").value;
+    const address = document.getElementById("modal_address").value;
+    const text = document.getElementById("modaltext").value;
+    const product = document.getElementById("modal_product").value
+    console.log(product)
+
+
+    function emailMatch(email) {
+
+      return email.match("^[a-zA-Z]+([.-]?[a-zA-Z0-9]+)*@([a-zA-Z]+([.-]?[a-zA-Z]))[.]{1}[a-zA-Z]{2,}$")
+
+      console.log("email is valid")
+    }
+
+    function nameMatch(name) {
+      if (name.match("^[a-zA-Z]{3,20}$")) {
+        return true
+      }
+      else {
+        return false
+      }
+    }
+    function phonematch(phone) {
+      if (phone.match("^((\\+91-?)|0)?[0-9]{10}$")) {
+        return true
+      } else {
+        return false
+      }
+    }
+    console.log("phone match", phonematch(phone))
+
+    function errorText(id, message) {
+      document.getElementById(id).innerHTML = message
+      setTimeout(() => {
+        document.getElementById(id).innerHTML = "";
+      }, 3000)
+      return false
+    }
+
+
+    if (name == "" || name == null) {
+
+      errorText("m_name", "Please Enter Your Name")
+    } else if (!nameMatch(name)) {
+      errorText("m_name", "Please Enter Your Name")
+    }
+    else if (phone == "" || phone == null) {
+
+      errorText("m_number", "Please Enter Phone Number")
+    }
+    else if (!phonematch(phone)) {
+
+      errorText("m_number", "Please Enter Valid Phone Number")
+    }
+    else if (email == "" || email == null) {
+
+      errorText("m_email", "Please Enter Your Email")
+    }
+    else if (!emailMatch(email)) {
+
+      errorText("m_email", "Please Enter  Valid Email")
+    }
+    else if (address == "" || address == null) {
+
+      errorText("m_address", "Please Enter  Your Address")
+    }
+
+    else if (text == "" || text == null) {
+
+      errorText("m_query", "Please Enter  Your Query")
+    } else {
+
+      var data = {
+        service_id: 'service_8zp4yhp',
+        template_id: 'template_lxioo5d',
+        user_id: 'user_mTjMBBP092bpZsnZTyLfp',
+        template_params: {
+        /*  'from_name': name,
+          'from_email': email,
+          'from_number': phone,
+          'from_query': text,
+          'from_address': address,
+          'to_owner': 'opzonik.care@gmail.com', */
+          from_name: name,
+          from_email: email,
+          from_number: phone,
+          from_product: product,
+          from_query: text,
+          from_address: address,
+          to_ownerl: 'opzonik.care@gmail.com',
+          company: "OPZONIK/SPECTRUM",
+        }
+      };
+
+      $.ajax('https://api.emailjs.com/api/v1.0/email/send', {
+        type: 'POST',
+        data: JSON.stringify(data),
+        contentType: 'application/json'
+      }).done(function () {
+        alert("Your Message Has Been Sent Successfully!");
+        location.reload();
+        document.getElementById("modal_name").value = "";
+        document.getElementById("moda_email").value = "";
+        document.getElementById("modal_number").value = "";
+        document.getElementById("modaltext").value = "";
+        document.getElementById("modal_address").value = "";
+        // window.location.reload();
+      }).fail(function (error) {
+        alert('Oops... ' + JSON.stringify(error));
+      });
+    }
+    //  console.log('last console is working');
+    //  window.location.reload();
+  }
+</script>
+
+{{!-- //mail for Subscribe --}}
+<script>
+  function onSubscribe() {
+
+
+    const email = document.getElementById("subscribe_form").value;
+    console.log(email)
+
+
+
+
+    function emailMatch(email) {
+
+      return email.match("^[a-zA-Z]+([.-]?[a-zA-Z0-9]+)*@([a-zA-Z]+([.-]?[a-zA-Z]))[.]{1}[a-zA-Z]{2,}$")
+
+      console.log("Email is Valid")
+    }
+
+
+
+
+
+    function errorText(id, message) {
+      document.getElementById(id).innerHTML = message
+      setTimeout(() => {
+        document.getElementById(id).innerHTML = "";
+      }, 3000)
+      return false
+    }
+
+
+    if (email == "" || email == null) {
+
+      errorText("s_sub", "Please Enter Your Email")
+    }
+    else if (!emailMatch(email)) {
+
+      errorText("s_sub", "Please Enter  Valid Email")
+    }
+    else {
+
+      var data = {
+        service_id: 'service_8zp4yhp',
+        template_id: 'template_b6fi5is',
+        user_id: 'user_mTjMBBP092bpZsnZTyLfp',
+        template_params: {
+          'from_email': email,
+          'to_owner': "spectrumtechnologies7@gmail.com"
+        }
+      };
+
+      $.ajax('https://api.emailjs.com/api/v1.0/email/send', {
+        type: 'POST',
+        data: JSON.stringify(data),
+        contentType: 'application/json'
+      }).done(function () {
+        alert("Your Message Has Been Sent Successfully!")
+
+        document.getElementById("subscribe_form").value = "";
+
+        //  location.reload();
+      }).fail(function (error) {
+        alert('Oops... ' + JSON.stringify(error));
+      });
+    }
+
+  }
+</script>
+
+{{!-- mail for custom cable --}}
+<script>
+  function customCable() {
+
+    const connector1 = document.getElementById("connector1").value;
+    const connector2 = document.getElementById("connector2").value;
+    {{!-- const fibercount = document.getElementById("fibercount").value; --}}
+    const fibertype = document.getElementById("fibertype").value;
+    const jackettype = document.getElementById("jackettype").value;
+    {{!-- const jacketrating = document.getElementById("jacketrating").value; --}}
+    {{!-- const pullingeye = document.getElementById("pullingeye").value; --}}
+    {{!-- const onpool = document.getElementById("onpool").value; --}}
+    {{!-- const breakouttype = document.getElementById("breakouttype").value; --}}
+    {{!-- const breakoutlenght = document.getElementById("breakoutlenght").value; --}}
+    {{!-- const polarity = document.getElementById("polarity").value; --}}
+    const cablelenght = document.getElementById("cablelenght").value;
+    const quantity = document.getElementById("quantity").value;
+
+
+
+
+
+
+
+
+    function errorText(id, message) {
+      document.getElementById(id).innerHTML = message
+      setTimeout(() => {
+        document.getElementById(id).innerHTML = "";
+      }, 3000)
+      return false
+    }
+
+
+    if (connector1 == "" || connector1 == null) {
+
+      errorText("connector1_name", "Please Select Connector 1")
+    } else if (connector2 == "" || connector2 == null) {
+      errorText("connector2_name", "Please Select Connector 2")
+    }
+    {{!-- else if (fibercount == "" || fibercount == null) {
+
+      errorText("fiberCount_name", "Please Select  Fiber Count")
+    } --}}
+    else if (fibertype == "" || fibertype == null) {
+
+      errorText("fiberType_name", "Please Select Fiber Type")
+    }
+    else if (jackettype == "" || jackettype == null) {
+
+      errorText("JacketType_name", "Please Select Jacket Type")
+    }
+    {{!-- else if (jacketrating == "" || jacketrating == null) {
+
+      errorText("JacketRating_name", "Please Select  Jacket Rating")
+    } --}}
+    {{!-- else if (pullingeye == "" || pullingeye == null) {
+
+      errorText("pullingEye_name", "Please Select Pulling Eye")
+    } --}}
+
+    {{!-- else if (onpool == "" || onpool == null) {
+
+      errorText("onSpool_name", "Please Select on Spool")
+    } --}}
+    {{!-- else if (breakouttype == "" || breakouttype == null) {
+
+      errorText("breakoutType_name", "Please Select Breakout Type")
+    } --}}
+    {{!-- else if (breakoutlenght == "" || breakoutlenght == null) {
+
+      errorText("breakoutLength_name", "Please Select Breakout Length")
+    } --}}
+    {{!-- else if (polarity == "" || polarity == null) {
+
+      errorText("polarity_name", "Please Select Polarity")
+    } --}}
+    else if (cablelenght == "" || cablelenght == null || cablelenght < 1) {
+
+      errorText("cableLength_name", "Please Select Cable Length")
+    }
+    else if (quantity == "" || quantity == null || quantity < 1) {
+
+      errorText("quantity_name", "Please Select Quantity")
+    }
+    else {
+
+      var data = {
+        service_id: 'service_8zp4yhp',
+        template_id: 'template_3cb599z',
+        user_id: 'user_mTjMBBP092bpZsnZTyLfp',
+        template_params: {
+
+          "from_connector1":connector1,
+          "from_connector2": connector1,
+          {{!-- "from_fiberCount": fibercount, --}}
+          "from_fiberType": fibertype,
+          "from_jacketType": jackettype,
+          {{!-- "from_jacketRating": jacketrating, --}}
+          {{!-- "from_pullingEye": pullingeye, --}}
+
+          {{!-- "from_spool": onpool, --}}
+          {{!-- "from_breakoutType": breakouttype, --}}
+          {{!-- "from_breakoutLength": breakoutlenght, --}}
+          {{!-- "from_polarity": polarity, --}}
+          "from_cableLength": cablelenght,
+          "from_quantity": quantity,
+          "to_owner":"opzonik.care@gmail.com",
+          "reply_to":"opzonik.care@gmail.com"
+        }
+      };
+
+      $.ajax('https://api.emailjs.com/api/v1.0/email/send', {
+        type: 'POST',
+        data: JSON.stringify(data),
+        contentType: 'application/json'
+      }).done(function () {
+        alert("Our Custom Cable Query Has Been Sent Successfully!")
+        location.reload();
+      }).fail(function (error) {
+        alert('Oops... ' + JSON.stringify(error));
+      });
+    }
+
+  }
+</script>
+<script>
+ Handlebars.registerHelper('ifCond', function(v1, v2, options) {
+  if(v1 === v2) {
+    return options.fn(this);
+  }
+});
+</script>
+
+</body>
+
+</html>
