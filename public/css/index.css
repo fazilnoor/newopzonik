@@ -1068,7 +1068,7 @@ background-color: grey;
 .social-icons.amazon-icon {
     background-color: #c5c5c5;
     position: fixed;
-    bottom: 14vw;
+    bottom: 50px;
     right: 30px;
     box-shadow: 1px 1px lightgray;
     animation-name: highlights;
@@ -1117,7 +1117,7 @@ background-color: grey;
 }
 
 .social-icons.amazon-icon.two {
-    bottom: 5vw;
+    bottom: 180px;
 }
 
 .social-icons.amazon-icon p {
