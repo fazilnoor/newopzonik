@@ -350,12 +350,13 @@
         data: JSON.stringify(data),
         contentType: 'application/json'
       }).done(function () {
-        alert("Your Message Has Been Sent Successfully!")
-        document.getElementById("contact_name").value = "";
-        document.getElementById("contact_email").value = "";
-        document.getElementById("contact_number").value = "";
-        document.getElementById("contact_query").value = "";
-        document.getElementById("contact_address").value = "";
+        location.href = '/thankyou'
+        // alert("Your Message Has Been Sent Successfully!")
+        // document.getElementById("contact_name").value = "";
+        // document.getElementById("contact_email").value = "";
+        // document.getElementById("contact_number").value = "";
+        // document.getElementById("contact_query").value = "";
+        // document.getElementById("contact_address").value = "";
         //  location.reload();
       }).fail(function (error) {
         alert('Oops... ' + JSON.stringify(error));
@@ -472,12 +473,13 @@
         contentType: 'application/json'
       }).done(function () {
         alert("Your Message Has Been Sent Successfully!");
-        location.reload();
-        document.getElementById("modal_name").value = "";
-        document.getElementById("moda_email").value = "";
-        document.getElementById("modal_number").value = "";
-        document.getElementById("modaltext").value = "";
-        document.getElementById("modal_address").value = "";
+        location.href = '/thankyou'
+        // location.reload();
+        // document.getElementById("modal_name").value = "";
+        // document.getElementById("moda_email").value = "";
+        // document.getElementById("modal_number").value = "";
+        // document.getElementById("modaltext").value = "";
+        // document.getElementById("modal_address").value = "";
         // window.location.reload();
       }).fail(function (error) {
         alert('Oops... ' + JSON.stringify(error));
