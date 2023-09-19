@@ -1,3 +1,3 @@
 RewriteEngine On
 RewriteCond %{HTTPS} 80
-RewriteRule ^(.*)$ https://opzonik.com/$1 [L,R=301]
+RewriteRule ^(.*)$ https://opzonik.com/$1 [L,R]
